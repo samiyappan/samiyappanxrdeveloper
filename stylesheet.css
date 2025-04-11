@@ -1,0 +1,195 @@
+﻿/* Professional Black & Blue Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0a0a0a;
+    color: #ffffff;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00bfff;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: #1a1a1a;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 1200px; /* Adds spacing between text & image */
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #d1d5db;
+}
+
+.hero img {
+    width: 300px; /* Professional size */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column; /* Stack items */
+        text-align: center;
+        padding: 50px 5%;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero img {
+        max-width: 70%;
+        margin-top: 20px;
+    }
+}
+
+
+.projects, .testimonials, .contact {
+    text-align: center;
+    padding: 60px;
+    background: #1a1a1a;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 1200px;
+}
+
+.project-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    width: 180px;
+    height: 180px;
+    background: #2c2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    border: none;
+    background: #1e90ff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #00bfff;
+}
+
+.testimonial {
+    background: #222222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px; /* Reduced width */
+    height: 40px; /* Reduced height */
+    font-size: 16px; /* Slightly smaller font */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-links a i {
+    margin-right: 6px;
+}
+
+/* Custom colors for each platform */
+.social-links a[href*="wa.me"] {
+    background: #25D366;
+}
+
+.social-links a[href*="linkedin"] {
+    background: #0077b5;
+}
+
+.social-links a[href*="github"] {
+    background: #333;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a0a0a;
+    color: white;
+}
