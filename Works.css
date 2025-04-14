@@ -1,0 +1,168 @@
+/* General Body Styling */
+body {
+  /* First Page Styling (index.html) */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: white;
+    height: 100vh;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content .buttons a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff7e5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .hero-content .buttons a:hover {
+    background-color: #feb47b;
+  }
+  
+  .hero img {
+    max-width: 40%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Logo & Navigation */
+  .logo {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;A
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff7e5f;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 0;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1c2c;
+    color: white;
+  }
+  
+  
+  /* Second Page (Works Section)              page Secound in css file
+   */
+  
+  /* Works Section Styling */
+  #works {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #works h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .work-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .work-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    opacity: 1;
+  }
+  
+  .work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .work-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .work-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Links inside work items */
+  .work-item a {
+    text-decoration: none;
+    color: #ff7e5f;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .work-item a:hover {
+    color: #feb47b;
+  }
+  
+  /* Footer Section for Works Page */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1c2c;
+    color: white;
+    margin-top: 50px;
+  }
+  
