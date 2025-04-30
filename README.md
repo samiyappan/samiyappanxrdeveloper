@@ -1,2 +1,0 @@
-# samiyappanxrdeveloper
-portfolio
