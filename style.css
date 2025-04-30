@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #101820;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #181d25;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.content {
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.content h1 span {
+  font-weight: bold;
+  color: white;
+}
+
+.content p {
+  color: #ccc;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.content button {
+  padding: 10px 20px;
+  background: #007bff;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.image-section {
+  flex: 1;
+  text-align: right;
+}
+
+.image-section img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.sidebar {
+  padding: 40px;
+  background-color: #181d25;
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  font-size: 0.95rem;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #00aaff;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.icons a {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
