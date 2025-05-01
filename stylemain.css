@@ -182,7 +182,7 @@ ul li {
 .skills-section h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  border-bottom: 3px solid #2ecc71;
+  
   display: inline-block;
   padding-bottom: 10px;
 }
@@ -194,9 +194,19 @@ ul li {
   flex-wrap: wrap;
   margin-top: 40px;
 }
-
 .skill-card {
-  background-color: #3e3e3e;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card:hover {
+  box-shadow: 0 0 20px rgba(0, 38, 255, 0.781); /* Blue glow */
+}
+.skill-card {
+  background-color: #898991;
   padding: 20px;
   border-radius: 15px;
   width: 250px;
