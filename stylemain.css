@@ -22,12 +22,17 @@ h1, h2, h3 {
   top: 0;
   z-index: 1000;
 }
-
 .logo {
   font-size: 1.5rem;
   color: #00ffff;
   font-weight: bold;
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
 }
+
 
 .menu-toggle {
   font-size: 1.8rem;
